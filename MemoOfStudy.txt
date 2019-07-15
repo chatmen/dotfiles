@@ -1,0 +1,12 @@
+2019/07/15
+	• MySQL
+	  ○ INTで初期値0の場合は、``をつけず, default 0
+	    ○ sqlはスネークケースで書こう
+	    • Ixias
+	      ○ モデルの定義：id, updateAt, createdAtが必要
+	      • Play
+	      	○ Repositoryを使う時：package.scala作り、
+		  プロダクトのコードパクってるんやったら、
+			import xxxx.persistence.default._の記述する
+			       ○ Not foundなどはimport ができてるか、引用元が記述できてるか、IDのマッピングはできるてかなどに注意
+			       	 
